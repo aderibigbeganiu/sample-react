@@ -1,0 +1,40 @@
+@media only screen and (max-width: 425px) {
+	.carousel-container {
+		margin-block: 10px;
+	}
+
+	.carousel {
+		border-radius: 5px;
+	}
+
+	.carousel-image {
+		object-fit: cover;
+	}
+}
+@media only screen and (min-width: 426px) and (max-width: 1023px) {
+	.carousel-container {
+		margin-block: 10px;
+	}
+
+	.carousel {
+		border-radius: 5px;
+	}
+
+	.carousel-image {
+		object-fit: cover;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.carousel-container {
+		width: 55%;
+		margin-inline: 10px;
+	}
+
+	.carousel {
+		border-radius: 5px;
+	}
+
+	.carousel-image {
+		object-fit: cover;
+	}
+}

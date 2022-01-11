@@ -1,0 +1,17 @@
+@media only screen and (max-width: 425px) {
+	.sidebar-container {
+		background-color: #fff;
+		padding: 16px;
+		border-radius: 5px;
+	}
+}
+@media only screen and (min-width: 426px) and (max-width: 1023px) {
+}
+@media only screen and (min-width: 1024px) {
+	.sidebar-container {
+		width: 22%;
+		background-color: #fff;
+		padding: 16px;
+		border-radius: 5px;
+	}
+}

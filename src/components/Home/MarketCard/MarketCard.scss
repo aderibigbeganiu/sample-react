@@ -1,0 +1,30 @@
+@media only screen and (max-width: 425px) {
+	.market-card {
+		width: -webkit-fill-available;
+		width: -moz-available;
+		background-color: #fff;
+		padding: 10px 20px;
+		border-radius: 5px;
+		font-size: 14px;
+	}
+}
+@media only screen and (min-width: 426px) and (max-width: 1023px) {
+	.market-card {
+		width: -webkit-fill-available;
+		width: -moz-available;
+		background-color: #fff;
+		padding: 10px 20px;
+		border-radius: 5px;
+		font-size: 14px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.market-card {
+		width: -webkit-fill-available;
+		width: -moz-available;
+		background-color: #fff;
+		padding-inline: 20px;
+		border-radius: 5px;
+		font-size: 14px;
+	}
+}

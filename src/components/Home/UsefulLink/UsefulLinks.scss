@@ -1,0 +1,18 @@
+.useful-link-card {
+	height: 50%;
+	background-color: #fff;
+	border-radius: 5px;
+	font-size: 14px;
+	padding-inline: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow-y: scroll;
+}
+
+.useful-link-container {
+	display: flex;
+	align-items: center;
+	margin-block: 10px;
+	cursor: pointer;
+}

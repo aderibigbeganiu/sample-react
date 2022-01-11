@@ -1,0 +1,103 @@
+@media only screen and (max-width: 425px) {
+	.explore-popular-categories-container {
+		// display: none;
+		margin-block-end: 30px;
+	}
+
+	.epc-header {
+		background-color: #f9f9f9;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 20px;
+		border-radius: 5px 5px 0 0;
+	}
+
+	.verified-suplier-container {
+		background-color: #fff;
+		border-radius: 0 0 5px 5px;
+		padding-block: 10px;
+	}
+
+	.verified-suplier-image {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 10px;
+		cursor: pointer;
+		background-color: #edf2fd;
+		border-radius: 5px;
+	}
+}
+@media only screen and (min-width: 426px) and (max-width: 1023px) {
+	.explore-popular-categories-container {
+		// display: none;
+		margin-block-end: 30px;
+	}
+
+	.epc-header {
+		background-color: #f9f9f9;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 20px;
+		border-radius: 5px 5px 0 0;
+	}
+
+	.verified-suplier-container {
+		background-color: #fff;
+		border-radius: 0 0 5px 5px;
+		padding-block: 10px;
+	}
+
+	.verified-suplier-image {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 10px;
+		cursor: pointer;
+		background-color: #edf2fd;
+		border-radius: 5px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.epc-header {
+		background-color: #f9f9f9;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 20px;
+		border-radius: 5px 5px 0 0;
+	}
+
+	.epc-container {
+		display: flex;
+		justify-content: space-between;
+		background-color: #fff;
+		overflow-y: scroll;
+		border-radius: 0 0 5px 5px;
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+	}
+
+	.epc-container::-webkit-scrollbar {
+		display: none;
+	}
+
+	.verified-suplier-container {
+		display: flex;
+		justify-content: space-between;
+		background-color: #fff;
+		overflow-y: scroll;
+		border-radius: 0 0 5px 5px;
+	}
+
+	.verified-suplier-image {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 20px;
+		cursor: pointer;
+		background-color: #edf2fd;
+	}
+}

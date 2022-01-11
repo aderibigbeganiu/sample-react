@@ -1,0 +1,68 @@
+@media only screen and (max-width: 425px) {
+	.sub-heading {
+		color: #9f9f9f;
+		font-size: 10px;
+	}
+	.buyer-service-card-container {
+		width: 100%;
+		// display: flex;
+	}
+
+	.buyer-service-card {
+		background-color: #fff;
+		padding: 10px 10px 20px 10px;
+		border-radius: 5px;
+		margin-block: 20px;
+		cursor: pointer;
+	}
+
+	.buyer-service-card:hover {
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+	}
+}
+@media only screen and (min-width: 426px) and (max-width: 1023px) {
+	.sub-heading {
+		color: #9f9f9f;
+	}
+
+	.buyer-service-card-container {
+		width: 100%;
+		display: flex;
+	}
+	.buyer-service-card {
+		width: 100%;
+		margin-inline: 10px;
+		background-color: #fff;
+		padding: 10px 10px 20px 10px;
+		border-radius: 5px;
+		margin-block: 20px;
+		cursor: pointer;
+	}
+
+	.buyer-service-card:hover {
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.sub-heading {
+		color: #9f9f9f;
+	}
+
+	.buyer-service-card-container {
+		width: 100%;
+		display: flex;
+	}
+	.buyer-service-card {
+		width: 25%;
+		margin-inline: 10px;
+		background-color: #fff;
+		padding: 10px 10px 20px 10px;
+		border-radius: 5px;
+		margin-block: 20px;
+		cursor: pointer;
+	}
+
+	.buyer-service-card:hover {
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+	}
+}

@@ -1,0 +1,185 @@
+@media only screen and (max-width: 425px) {
+	.market-section-container {
+		margin-block-end: 35px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.market-section-card-container {
+		display: flex;
+		flex-direction: column;
+		height: 50%;
+		margin-inline: 5px;
+	}
+
+	.card-card-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-block: 20px;
+	}
+
+	.left-card-banner {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 10px 20px;
+		// width: 100%;
+		height: 300px;
+		position: relative;
+	}
+
+	.left-card-image {
+		width: 100%;
+		height: 300px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: -1;
+		border-radius: 5px;
+		object-fit: cover;
+	}
+
+	.right-cards-container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.market-section-card {
+		margin-block: 5px;
+		background-color: #fff;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	.market-section-card:hover {
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+	}
+}
+@media only screen and (min-width: 426px) and (max-width: 1023px) {
+	.market-section-container {
+		margin-block-end: 35px;
+	}
+
+	.market-section-card-container {
+		display: flex;
+		height: 49%;
+	}
+
+	.card-card-container {
+		// display: flex;
+		justify-content: space-between;
+		margin-block: 20px;
+	}
+
+	.left-card-banner {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 20px;
+		height: 300px;
+		position: relative;
+	}
+
+	.left-card-image {
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: -1;
+		border-radius: 5px;
+		object-fit: cover;
+		height: -webkit-fill-available;
+	}
+
+	.right-cards-container {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		margin-block: 20px;
+	}
+
+	.market-section-card {
+		width: 25%;
+		margin: 10px;
+		background-color: #fff;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	.market-section-card:hover {
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.market-section-container {
+		margin-block-end: 35px;
+	}
+
+	.market-section-card-container {
+		display: flex;
+		height: 49%;
+		margin-inline-start: 10px;
+	}
+
+	.card-card-container {
+		display: flex;
+		justify-content: space-between;
+		margin-block: 20px;
+	}
+
+	.left-card-banner {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 20px;
+		width: 20%;
+		height: 300px;
+		position: relative;
+	}
+
+	.left-card-image {
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: -1;
+		border-radius: 5px;
+		object-fit: cover;
+		height: -webkit-fill-available;
+	}
+
+	.right-cards-container {
+		width: 80%;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+
+	.market-section-card {
+		width: 25%;
+		margin-inline-start: 10px;
+		background-color: #fff;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	.market-section-card:hover {
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+	}
+}
